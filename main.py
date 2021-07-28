@@ -8,7 +8,7 @@ def update():
     day_string = strftime("%A")
     day_label.config(text=day_string)
 
-    date_string = strftime("%B %d, %Y")
+    date_string = strftime("%d %B, %Y")
     date_label.config(text=date_string)
 
     window.after(1000,update)
